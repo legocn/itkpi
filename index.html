@@ -1,1 +1,231 @@
-test page
+<html>
+<head>
+<title>Weekly Meeting - BT GEUS CN</title>
+<script type="text/javascript">
+function guid() {
+    function S4() {
+       return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+    }
+    return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+}
+</script>
+
+<STYLE type="text/css">
+.DigitalBoard-radio {
+  display: none;
+}
+.DigitalBoard-radio:checked + .DigitalBoard-content {
+  display: block;
+}
+.DigitalBoard-tab {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px;
+}
+.DigitalBoard-tab:hover {
+  opacity: 0.9;
+}
+.DigitalBoard-tabs {
+  color: black;
+  font-weight:bold;
+  font-size:16;
+}
+
+.DigitalBoard-tabs :nth-child(1) {
+  background-color: green;
+  color: white;
+}
+.DigitalBoard-tabs :nth-child(2) {
+  background-color: yellow;
+}
+.DigitalBoard-tabs :nth-child(3) {
+  background-color: red;
+}
+.DigitalBoard-tabs :nth-child(4) {
+  background-color: #eeeeee;
+}
+.DigitalBoard-tabs :nth-child(5) {
+  background-color: blue;
+  color: white;
+}
+.DigitalBoard-tabs :nth-child(6) {
+  background-color: #FFE4B5;
+  color: black;
+}
+
+.DigitalBoard-content {
+  display: none;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.DigitalBoard-content img,iframe{
+    max-height: 900px;
+    max-width: 1280px;
+    vertical-align:middle;
+    margin-top:-20px;
+}
+
+#DigitalBoard-tab-1 + .DigitalBoard-content{
+  background-color: green;
+  color: white;
+}
+#DigitalBoard-tab-2 + .DigitalBoard-content{
+  background-color: yellow;
+  color: black;
+}
+#DigitalBoard-tab-3 + .DigitalBoard-content{
+  background-color: red;
+  color: black;
+}
+#DigitalBoard-tab-4 + .DigitalBoard-content{
+  background-color: #eeeeee;
+  color: black;
+}
+#DigitalBoard-tab-5 + .DigitalBoard-content{
+  background-color: blue;
+  color: white;
+}
+#DigitalBoard-tab-6 + .DigitalBoard-content{
+  background-color: #FFE4B5;
+  color: black;
+}
+.big-radio{
+	width: 24px;
+	height: 24px;
+}
+
+a:link {text-decoration:none;color:blue;} a:hover {text-decoration:underline;color:red;} a:active {text-decoration:none;color:yellow;} a:visited {text-decoration:none;color:blue;}
+</STYLE>
+</head>
+<body>
+<div class="DigitalBoard-tabs">
+  <label class="DigitalBoard-tab" for="DigitalBoard-tab-1">Safety</label>
+  <label class="DigitalBoard-tab" for="DigitalBoard-tab-2">Quality</label>
+  <label class="DigitalBoard-tab" for="DigitalBoard-tab-3">Delivery</label>
+  <label class="DigitalBoard-tab" for="DigitalBoard-tab-4">Cost</label>
+  <label class="DigitalBoard-tab" for="DigitalBoard-tab-5">People</label>
+  <label class="DigitalBoard-tab" for="DigitalBoard-tab-6">Others</label>
+</div>
+
+<input class="DigitalBoard-radio" id="DigitalBoard-tab-1" name="DigitalBoard-group" type="radio" checked="checked"/>
+<div class="DigitalBoard-content">
+  <h1>01 Weekly Mood of Meter (RX&All)</h1>
+    <a id="lnk101" target="_blank" ><img id="img101" width="876" height="587"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/01 Safety/01 Mood of Meter.jpg"+"?rand="+guid()
+        document.getElementById("lnk101").href=imgurl
+        document.getElementById("img101").src=imgurl
+    </script>
+</div>
+
+<input class="DigitalBoard-radio" id="DigitalBoard-tab-2" name="DigitalBoard-group" type="radio"/>
+<div class="DigitalBoard-content">
+  <h1>01 Weekly Network Availability - CN (JZ&RX)</h1>
+    <a id="lnk201" target="_blank" ><img id="img201" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/02 Quality/01 KPI- Weekly Network Availability - CN.jpg"+"?rand="+guid()
+        document.getElementById("lnk201").href=imgurl
+        document.getElementById("img201").src=imgurl
+    </script>
+
+    <h1>02 Monthly System Availability KPI (Global)</h1>
+	<h2><a href="https://legogroup.sharepoint.com/sites/systemavailability" target="_blank">Link to Global System Availability site</a></h2>
+	<br>
+    
+	<h1>03 Weekly User satisfaction board for CN callers - YTD (DW&JW)</h1>
+	<h2><a href="https://app.powerbi.com/groups/cd9015c6-384e-4c29-ad1d-6530db323de7/reports/b6c677db-ee51-4a2e-88bc-41409e1555f2/ReportSection" target="_blank">Link to User satisfaction board for CN callers BI Report</a></h2>
+	<br>   
+<!--iframe width="1600" height="600" src="https://app.powerbi.com/reportEmbed?reportId=9ae25858-cbb1-4001-bd3a-16446d279572&groupId=cd9015c6-384e-4c29-ad1d-6530db323de7" frameborder="0" ></iframe-->
+
+  <h1>04 Weekly Major and Critical incidents (JZ&RX)</h1>
+    <a id="lnk204" target="_blank" ><img id="img204" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/02 Quality/04 KPI- Weekly Major and Critical incidents.jpg"+"?rand="+guid()
+        document.getElementById("lnk204").href=imgurl
+        document.getElementById("img204").src=imgurl
+    </script>
+</div>
+
+<input class="DigitalBoard-radio" id="DigitalBoard-tab-3" name="DigitalBoard-group" type="radio"/>
+<div class="DigitalBoard-content">
+ <h1>01 Weekly Closed Cases (DW&JW)</h1>
+     <a id="lnk301" target="_blank" ><img id="img301" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/03 Delivery/01 Weekly Closed Cases.jpg"+"?rand="+guid()
+        document.getElementById("lnk301").href=imgurl
+        document.getElementById("img301").src=imgurl
+    </script>
+    
+ <h1>02 Monthly User Training Satisfaction (DW&JW)</h1>
+      <a id="lnk302" target="_blank" ><img id="img302" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/03 Delivery/02 KPI- Monthly User Training Satisfaction.jpg"+"?rand="+guid()
+        document.getElementById("lnk302").href=imgurl
+        document.getElementById("img302").src=imgurl
+    </script>
+</div>
+
+<input class="DigitalBoard-radio" id="DigitalBoard-tab-4" name="DigitalBoard-group" type="radio"/>
+<div class="DigitalBoard-content">
+  <h1>01 Quarterly Computer lifecycle (WW)</h1>
+    <a id="lnk401" target="_blank" ><img id="img401" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/04 Cost/01 KPI Computer lifecycle.jpg"+"?rand="+guid()
+        document.getElementById("lnk401").href=imgurl
+        document.getElementById("img401").src=imgurl
+    </script>
+
+  <h1>02 Quarterly Mobile lifecycle (JW&OH)</h1>
+      <a id="lnk402" target="_blank" ><img id="img402" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/04 Cost/02 KPI Mobile lifecycle.jpg"+"?rand="+guid()
+        document.getElementById("lnk402").href=imgurl
+        document.getElementById("img402").src=imgurl
+    </script>
+    
+  <h1>03 Monthly JIA IT Spending Tracking(info-sharing) (YZ&RX)</h1>
+      <a id="lnk403" target="_blank" ><img id="img403" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/04 Cost/03 Monthly JIA IT Spending Tracking.jpg"+"?rand="+guid()
+        document.getElementById("lnk403").href=imgurl
+        document.getElementById("img403").src=imgurl
+    </script>
+</div>
+
+<input class="DigitalBoard-radio" id="DigitalBoard-tab-5" name="DigitalBoard-group" type="radio"/>
+<div class="DigitalBoard-content">
+  <h1>01 Monthly IDPs Closure (DA)</h1>
+    <a id="lnk501" target="_blank" ><img id="img501" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/05 People/01 IDPs Closure.jpg"+"?rand="+guid()
+        document.getElementById("lnk501").href=imgurl
+        document.getElementById("img501").src=imgurl
+    </script>
+
+  <h1>02 Monthly Skills Gaps Closure (JZ)</h1>
+    <a id="lnk502" target="_blank" ><img id="img502" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/05 People/02 Skills Gaps Closure.jpg"+"?rand="+guid()
+        document.getElementById("lnk502").href=imgurl
+        document.getElementById("img502").src=imgurl
+    </script>
+</div>
+
+<input class="DigitalBoard-radio" id="DigitalBoard-tab-6" name="DigitalBoard-group" type="radio"/>
+<div class="DigitalBoard-content">
+  <h1>01 5S Audit (RX&All)</h1>
+    <a id="lnk601" target="_blank" ><img id="img601" width="100%"</img></a>
+    <script type="text/javascript">
+        var imgurl="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/Shared Documents/11 KPI/06 Others/01 5S Audit.jpg"+"?rand="+guid()
+        document.getElementById("lnk601").href=imgurl
+        document.getElementById("img601").src=imgurl
+    </script>
+</div>
+
+<div>
+<div style="position:fixed;right:0px;bottom:0px;color:black;"><a href="#">[Top]</a>&nbsp<a href="https://legogroup.sharepoint.com/sites/BTBusinessSupportChina/SitePages/Weekly-Meeting.aspx">[Agenda]</a></div>
+
+</div>
+</body>
+</html>
